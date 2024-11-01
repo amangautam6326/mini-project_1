@@ -1,0 +1,27 @@
+.stage{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(234, 135, 135);
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    border-color: rgb(248, 62, 62);
+    border-width: 5px;
+    border-style: groove;
+    margin:10px 500px 10px 500px;
+    padding:2px 2px 2px 2px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+ .a{
+    background-color:rgb(247, 225, 195);
+    font-style: inherit;
+    text-align: center;
+    border-color: rgb(255, 165, 39);
+    border-width: 5px;
+    border-style: groove;
+    padding:2px 2px 2px 2px;
+   
+} 

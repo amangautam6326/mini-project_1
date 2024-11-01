@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <link rel ="stylesheet" href ="in.css">
+</head>
+<body>
+    <div  class ="heading">
+        <box><image src ="XyZlo.png" style=" height: 80px; width: auto; margin-top:4px;" ></image></box>
+        </div>
+          <box class="content" id="0001">
+            <box ><a href ="index.html" class ="current hower active" id ="id06">Home</a></box>
+            <box class ="inline-block"><a href="aboutus.html" class="current hower active" id="id01">About Us</a></box>
+            <box><a href ="mission.html" class ="current hower active" id="id02">Mission</a></box>
+    <button onClick="toggleList()"class="d1">Disease</button>
+    <ul id="myList">
+        <li><box><a href="malaria.html"class="disease">Malaria</a></box></li>
+        <li><box><a href="dengue.html" class="disease">Dengue</a></box></li>
+        <li><box><a href="diabetes.html"class="disease">Diabeties</a></box></li>
+        <li><box><a href="Typhiod.html" class="disease">Typhiod</a></box></li>
+        <li><box><a href="celiac.html" class="disease">Celiac</a></box></li>
+        <li><box><a href="chickengunya.html" class="disease">Chikungunya</a></box></li>
+    </ul>
+    <script>
+        function toggleList() {
+            var myList = document.getElementById("myList");
+            if (myList.style.display === "none") {
+                myList.style.display = "block";
+            } else {
+                myList.style.display = "none";
+            }
+        }
+    </script>
+        <box><a href ="diet.html" class ="current hower active" id="id04" >Diet</a></box>
+        <box><a href ="login.html" class ="current hower active" id="id04">Login</a></box>
+      </box>  
+        <box><video  class ="1"loop="loop" muted ="true" preload="auto" autoplay="autoplay"style="width:100%; height:70%;
+         margin-top 0px; margin-right" src ="video4.mp4">
+    </video>
+    </box>
+</body>
+
+</html>

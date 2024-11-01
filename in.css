@@ -1,0 +1,77 @@
+.heading{
+    background-color:rgb(254, 207, 38);
+     
+}
+ .content{
+    
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(254, 207, 38); 
+    /* background-color:rgb(0, 0, 0); */
+
+    justify-content: space-between;
+    position: sticky;
+    top:0px;
+    height:40px;
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+    border-style:solid;
+  }
+  #id01{
+    display :inline-block;
+    width: 96px;
+    text-align:center;
+    padding:11px 30px 11px 30px;  
+    }
+#id02{
+    display :inline-block;
+    width: 96px;
+    text-align:center;
+    padding:11px 30px 11px 30px;  
+    }
+#id03{
+    display :inline-block;
+    width: 96px;
+    text-align:center;
+    padding:11px 30px 11px 30px;  
+    }
+#id04{
+    display :inline-block;
+    width: 96px; 
+    text-align:center;
+    padding:11px 30px 11px 30px;  
+    } 
+#id06{
+    display :inline-block;
+    width: 96px;
+    text-align:center;
+    padding:11px 30px 11px 30px;  
+    }
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+#myList{
+    display: none;
+}  
+.disease{
+    background-color:blanchedalmond;
+    margin-left:2px;
+    margin-right:2px;
+    margin-top:2px;
+    margin-bottom:2px;
+    border-width:2px;
+    border-style: groove;
+    border-color:black;
+    font-style: italic;
+    list-style: georgian;
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:2px;
+    padding-bottom:2px;
+
+}
+.d1{
+    background-color:rgb(254, 207, 38);;
+}
